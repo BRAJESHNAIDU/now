@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+#wrapper{
+            position: relative;
+            width: 350px;
+            height: 100px;
+            left: 300px;
+            top: 300px;
+            border: 2px solid black;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(1, 1, 73);
+        }
+        #inp{
+            width: 200px;
+            height: 35px;
+            border: 2px solid black;
+            border-radius: 4px;
+            outline: none;
+        }
+        
+        #btn{
+            width: 80px;
+            height: 40px;
+            border: 2px solid red;
+            border-radius: 4px;
+            outline: none;
+            background-color: red;
+            position: relative;
+            left: 10px;
+            color: white;
+            font-size: 18px;
+        }
