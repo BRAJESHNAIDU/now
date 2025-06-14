@@ -5,7 +5,7 @@ import React from 'react'
 const Speeck = () => {
     const handleClick=()=>{
         const inp=document.getElementById('inp')
-        speechSynthesis.speak(new SpeechSynthesisUtterance(inp))
+        speechSynthesis.speak(new SpeechSynthesisUtterance(inp.value))
     }
   return (
     <div id='wrapper'>
